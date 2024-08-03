@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.background {
+    background-image: url('icons/cloud.png'); /* Adjust path based on image location */
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    height: 100vh;
+    width: 98.9vw;
+  }
